@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 60%;
+    border: 2px dashed red;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+h1{
+    width : 50%;
+    border: 2px dashed blue;
+}
+
+main{
+    width: 50vw;
+    background-color:skyblue ;
+    font-size: 2rem;
+}
+p{
+    font-size: 2rem;
+    width:40ch
+}
+
+/* 
+
+video on units : https://youtu.be/-GR52czEd-0?si=aqjLGDEj2h2sll7D
+
+*/

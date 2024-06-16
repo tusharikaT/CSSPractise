@@ -1,0 +1,45 @@
+*{ /*used for reset*/
+    font-family: monospace;
+}
+
+body{  /*element*/
+    font-size: 22px;
+}
+main{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button,imput,textarea, select{
+    font: inherit; /*writing specifically coz font elements donot inherit settings*/
+}
+h1,h2{
+    color: blue;
+}
+
+p{ /*all paragraph element*/
+    color : purple;
+}
+
+/*
+p span {
+    text-transform: uppercase;
+    background-color: gold;
+}
+*/
+p{ /*all paragraph element*/
+    color : red;
+}
+.highlight{
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.gray{ /*class selector,  they are more specific, so overrules purple para setup*/
+    color: gray;
+}
+
+#second{/*try to avoid using id selectors*/
+    font-style: italic;
+}
+
+/* specificity.keegan.st <- specificity calculator*/
