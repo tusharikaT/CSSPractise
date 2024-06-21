@@ -5,3 +5,48 @@ body {
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
 }
+
+a{
+    text-decoration: none; /* default underline */
+    cursor: pointer;
+    /* color: blue; */
+}
+
+a:visited{
+    color: greenyellow;
+}
+a:hover,a:focus{
+    color : red;
+}
+
+a:active {
+ color: black;
+}
+
+/* To maintain uniformity , we use similar shade to go with color theme
+
+for eg:
+
+a{
+    color: hsl(207,44%,49%);
+}
+
+a:hover,a:focus{
+    color: hsl(189,44%,49%);
+}
+
+orr add opacity like below
+
+a:hover,a:focus{
+    color: hsl(207,44%,49%, 0.8);
+}
+
+*/
+
+/* 
+another way to uniformity
+
+we keep all the links in the color of text. and dont opt for a color change on visited
+
+
+*/
