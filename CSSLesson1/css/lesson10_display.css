@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+/* main{
+     background-color: aqua;
+     width: 50%;
+} */
+
+p{
+    background-color: lightgray; /* p has a default width of 100% of available width (here it is main's 50%)also has a margin */
+
+}
+.opposite {
+    background-color: #333;
+    color: whitesmoke;
+/*     margin-top: 100px; cant apply margin-top: margin-bottom:, height to inline element ; */
+    padding: 4rem;
+    display: inline-block; /* for inline block, can apply margin and padding to this now, as it is hybrid and respects the rules */
+    margin-top: 100px;
+    height: 200px;   
+}
+
+/**************************************/
+ul{
+    list-style-type: none;
+    padding: 0.5rem;
+    text-align:right ;
+    background-color: black; 
+    margin: 0;
+}
+li{
+    display: inline-block;
+    margin-inline: 0.5rem ;
+    
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+}
+li a:hover, li a:focus{
+    text-decoration: underline;
+}
