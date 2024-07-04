@@ -28,8 +28,25 @@ img{
 body {
   font-family: "Nunito", sans-serif;
   min-height: 100vh;
-}
+  background-color: aliceblue;
+/*   background-image: url("../images/bubbles.png"),
+                    linear-gradient(to left,steelblue, #fff);
+  background-repeat: repeat-y, no-repeat;
+  background-position: right center;
+  background-size: 10%,auto; */
 
+  background: repeat-y right center url("../images/bubbles.png"), no-repeat linear-gradient(to left,steelblue, #fff);
+  background-size: 10%,auto;
+} 
+
+.container{
+    background-color: rgb(251,210,156);
+    background-image: url('../images/map-2176x1451.png');
+    background-repeat: repeat;/* default */
+    background-position: top ;
+    background-size: cover;
+   
+}
 .hero{
     border-bottom: 2px solid #000;
     padding :20px;
@@ -37,15 +54,17 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap:30px;
-    background-color: rgb(251,210,156);
-    background-image: url('../images/map-2176x1451.png');
-    background-repeat: repeat;/* default */
-    background-size: cover;
+    background-color: hlsa(0%, 0%, 100%, 0.40);
 
 }
 h1{
     font-size: 500%;
-    color: white;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px #000;
+  /*   background-color: rgba(0, 0, 0, 0.407);
+    padding: 0.25rem;
+    border-radius: 10px; */
+
 }
 
 .profile-pic-figure{
@@ -70,6 +89,18 @@ h1{
 .example img{
     width : 25%;
     height: auto;
+}
+
+.clip{
+    font-weight: 800;
+    font-size: 18rem;
+    text-align: center;
+    background-image: url("../images/scenic-2200x1331.png");
+    background-size: 100%;
+    text-transform: uppercase;
+    -webkit-background-clip: text ;
+    background-clip: text;
+    color :hsla(0, 0%, 0%, 0.208);
 }
 
 
