@@ -83,7 +83,7 @@ syntax:
     }
 }
 /* || xl */
-@media screen and (min-width:1200px){
+@media screen and (min-width:1px){
     body{
         background-color: rebeccapurple;
         background-image: radial-gradient(whitesmoke,rebeccapurple);
